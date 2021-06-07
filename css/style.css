@@ -461,12 +461,18 @@ a {
         font-weight: bold;
         font-size: 12.8px;
         letter-spacing: 0.3px;
-        padding: 8px 37px;
         box-sizing: border-box;
+    }
+
+    .img-list span {
+        width: 100%;
+        display: block;
     }
 
     .img-list img {
         width: 100%;
+        padding: 8px 10px;
+        box-sizing: border-box;
     }
 
     .ul-btm {
@@ -1650,7 +1656,7 @@ a {
 .autoPlay-btn-4 {
     position: absolute;
     right: 34px;
-    top:0;
+    top: 0;
     margin-top: 88.05%;
     z-index: 999999;
 
@@ -2462,7 +2468,7 @@ select > option {
 
 
 @media all and (min-width:550px) {
-    
+
     .video-box {
         top: 85px;
     }
@@ -2556,10 +2562,6 @@ select > option {
         width: 40%;
     }
 
-    .img-list {
-        font-size: 11px;
-        padding: 8px 10px;
-    }
 
     /*tablet main slide*/
     .total-wrap {
